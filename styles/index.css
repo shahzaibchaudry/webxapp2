@@ -1,0 +1,95 @@
+/* CSS Reset By Coco */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+@font-face {
+    font-family: 'VG_500';
+    src: url('../assets/fonts/VG5000-Regular.otf');
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* End Css Reset */
+
+.vg__500__font {
+    font-family: 'VG_500';
+}
+
+.space__Grotesk {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ====== Home Page Main Banner Code Start Here ======== */
+.main-banner {
+    background-image: url('../assets/images/banner.png');
+}
+
+ul li .active {
+    border-top: 1px solid #F26327;
+    border-left: 1px solid #F26327;
+    border-bottom: 1px solid #36B44A;
+    border-right: 1px solid #36B44A;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.light__gradient__color {
+    background-image: linear-gradient(180deg, rgba(54, 180, 74, 0.40) 99.99%, rgba(255, 255, 255, 0.00) 100%);
+ 
+    opacity: 0.20000000298023224;
+}
+.light__gradient__color svg{
+    opacity: 1;
+}
+.flags__icons{
+    background-image: url('../assets/images/flags.png');
+    width: 495.883px;
+height: 408.54px;
+}
+.get__started__bg{
+    background-image: linear-gradient(225deg, #137222 0%, #052157 100%), url('../assets/images/image\ 1.png');
+    background-blend-mode: multiply;
+mix-blend-mode: multiply;
+}
